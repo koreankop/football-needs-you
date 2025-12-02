@@ -41,11 +41,51 @@ open index.html
 
 Or just double-click `index.html` to play in your browser.
 
+## Analytics Dashboard
+
+This repository also includes a powerful Streamlit-based analytics dashboard for visualizing data!
+
+### Features
+
+- Upload CSV/Excel files for instant visualization
+- Automatic data preprocessing and cleaning
+- Interactive charts and graphs using Plotly
+- KPI metrics dashboard
+- Trend analysis over time
+- Language distribution visualization
+- Time-based activity heatmaps
+- Export processed data as CSV
+
+### Running the Dashboard
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Streamlit dashboard
+streamlit run analytics_dashboard.py
+```
+
+The dashboard will open in your browser at `http://localhost:8501`
+
+### Dashboard Features
+
+- **File Upload**: Support for CSV and Excel files with Korean encoding
+- **KPI Metrics**: Total job count, average video duration, popular languages
+- **Trend Analysis**: Daily job volume tracking with line charts
+- **Language Distribution**: Bar and pie charts for source/target languages
+- **Time Patterns**: Heatmap showing activity by day and hour
+- **Data Export**: Download cleaned data as CSV
+
 ## Technologies Used
 
 - HTML5
 - CSS3
 - Vanilla JavaScript
+- Python (for Analytics Dashboard)
+- Streamlit
+- Pandas
+- Plotly
 
 ## Game Mechanics
 
