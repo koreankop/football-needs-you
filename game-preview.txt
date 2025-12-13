@@ -1,0 +1,71 @@
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│              ⚽ Football Needs You! ⚽                              │
+│         Can you score the perfect penalty?                         │
+│                                                                    │
+├────────────────────────────────────────────────────────────────────┤
+│                                                                    │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐           │
+│  │   Goals: 0   │  │ Attempts: 0  │  │Success Rate:0│           │
+│  └──────────────┘  └──────────────┘  └──────────────┘           │
+│                                                                    │
+├────────────────────────────────────────────────────────────────────┤
+│                    GAME AREA (Green Pitch)                         │
+│                                                                    │
+│                         🧤                                         │
+│                    (Goalkeeper)                                    │
+│                                                                    │
+│                                                                    │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐              │
+│  │             │  │             │  │             │              │
+│  │    LEFT     │  │   CENTER    │  │    RIGHT    │              │
+│  │             │  │             │  │             │              │
+│  │  (Click)    │  │  (Click)    │  │  (Click)    │              │
+│  │             │  │             │  │             │              │
+│  └─────────────┘  └─────────────┘  └─────────────┘              │
+│                                                                    │
+│                         ⚽                                         │
+│                      (Ball)                                        │
+│                                                                    │
+│                  [ Result Message ]                                │
+│                                                                    │
+├────────────────────────────────────────────────────────────────────┤
+│                      How to Play:                                  │
+│  Click on the LEFT, CENTER, or RIGHT section of the goal to       │
+│  take your shot! The goalkeeper will randomly dive to try and      │
+│  save it. Good luck!                                               │
+│                                                                    │
+│              ┌──────────────────────────┐                         │
+│              │      Reset Score         │                         │
+│              └──────────────────────────┘                         │
+│                                                                    │
+│          Made with ❤️ for football fans everywhere                │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+
+GAMEPLAY FLOW:
+═════════════
+
+1. Player clicks on LEFT/CENTER/RIGHT section
+2. Ball animates toward chosen direction ⚽ →
+3. Goalkeeper randomly dives 🧤 (left/center/right)
+4. Result displayed:
+   ✅ GOAL! ⚽🎉 (if keeper dives different direction)
+   ❌ SAVED! 🧤 (if keeper dives same direction)
+5. Score updates automatically
+6. Ready for next shot!
+
+KEYBOARD CONTROLS:
+═════════════════
+A or ← = Shoot Left
+S or ↓ = Shoot Center
+D or → = Shoot Right
+
+VISUAL FEATURES:
+═══════════════
+• Purple gradient background (outside container)
+• White rounded container with shadow
+• Green grass pitch with gradient
+• Smooth animations for ball and goalkeeper
+• Color-coded results (green for goal, red for save)
+• Responsive design for mobile and desktop
